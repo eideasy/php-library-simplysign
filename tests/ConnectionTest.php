@@ -18,19 +18,19 @@ class ConnectionTest extends TestCase
      * @dataProvider configDomainDataProvider
      *
      * @param array $config
-     * @param       $expected
+     * @param string $expected
      */
-    public function testConstructorDomain(array $config, $expected)
+    public function testConstructorDomain(array $config, string $expected)
     {
         $subject = new Connection($config);
 
-        $this->assertEquals($expected, $subject->getDomain());
+        $this->assertSame($expected, $subject->getDomain());
     }
 
     /**
      * @return array
      */
-    public function configDomainDataProvider()
+    public static function configDomainDataProvider()
     {
         return [
             [

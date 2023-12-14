@@ -19,7 +19,7 @@
         }
     },
     "require": {
-        "php": ">=5.5",
+        "php": ">=7.4",
         "ramsey/uuid": ">=3.7",
         "guzzlehttp/guzzle": "^7.0",
         "psr/log": ">=1.0",
