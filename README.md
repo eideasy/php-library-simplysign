@@ -11,7 +11,7 @@ SimplySign webservice client
 
 # Installation
 
-`composer require webinv/simplysign`
+`composer require eideasy/simplysign`
 
 # Usage
 
