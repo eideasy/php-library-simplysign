@@ -232,8 +232,8 @@ class SoftCardService extends Client
             }
 
             $certificates[] = new Certificate(
-                $details[$options['filename']],
-                $item->getBody()
+                $item->getBody(),
+                $details[$options['filename']]
             );
         }
 

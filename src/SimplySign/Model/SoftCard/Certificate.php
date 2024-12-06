@@ -39,10 +39,10 @@ class Certificate
      * @param array $details
      * @param $content
      */
-    public function __construct(array $details = [], $content)
+    public function __construct($content, array $details = [])
     {
-        $this->details = $details;
         $this->content = $content;
+        $this->details = $details;
     }
 
     /**
